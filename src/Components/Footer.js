@@ -1,9 +1,9 @@
-import "./css/ColorPicker.css";
+import "./css/style.css"
 
 function Footer() {
     return (
         <div className="footer">
-            <button><i class="fab fa-github">Repository</i></button>
+            <a href="https://github.com/AnoukRImola/react_color_piker" target="_blank" rel="noopener noreferrer"><i class="fab fa-github">Repositorio</i></a>   
         </div>
     )
 }

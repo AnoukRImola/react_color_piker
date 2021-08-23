@@ -9,7 +9,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 48rem;
+    height: 80vh;
+    border-bottom: 1px solid black;
 }
 
 .centro{
@@ -26,12 +27,19 @@ h1{
 
 input{
     margin: 0.5rem;
+    cursor: pointer;
 }
 
 /*Footer*/
 .footer{
-    height: 7rem;
+    height: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footer a,i{
+    font-size: 1.5rem;
+    color: black;
+    font-family: 'Anton', sans-serif;
 }
